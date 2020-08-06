@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.carousel-item{
+    max-height: calc(100vh - 71px);
+}
+img{
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+p, a{
+    font-size: 18px;
+}
+.navbar-brand{
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+.content{
+    margin-left: 50px;
+}
+.jumbotron, .faq{
+    background-color: #f3faf6
+}
+.faq i{
+    color: #e44069 !important;
+}
+.faq-list .fa-question-circle{
+    font-size: 23px;
+    position: absolute;
+    left: 26px;
+}
+.faq-list a{
+    color: #6b6b6b;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.faq-list a:hover{
+    color: #e44069;
+}
+.faq-list .fa-chevron-down,
+.faq-list .fa-chevron-up{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.faq-list .fa-chevron-down{
+    display: none;
+}
+.faq-list a.collapsed .fa-chevron-down{
+    display: inline-block;
+}
+.faq-list .fa-chevron-up{
+    display: inline-block;
+}
+.faq-list a.collapsed .fa-chevron-up{
+    display: none;
+}
+.info-box, .contact form{
+    box-shadow: 0 0 30px rgba(214, 215, 216, .6);
+    padding: 30px;
+}
+.fakeimg{
+    max-width: 200px;
+}
+
+
+.card-container {
+    position: relative;
+    min-width: 300px;
+    width: 50%;
+  }
+  .card-container a{
+    text-decoration: none !important;
+  }
+  .card-image {
+    display: block;
+    min-width: 300px;
+    min-height: auto;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(255, 255, 255, 0.8);
+  }
+  
+  .card-container:hover .card-overlay {
+    opacity: 1;
+  }
+  
+  .card-text {
+    color: #e44069;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
